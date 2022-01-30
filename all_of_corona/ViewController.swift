@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var upLabel: UILabel!
     
     @IBAction func upButton(_ sender: UIButton) {
-        num = num + 1
+        num = num + 2
         upLabel.text = String(num)
     }
     
